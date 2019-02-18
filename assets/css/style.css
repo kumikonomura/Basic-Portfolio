@@ -1,97 +1,82 @@
 /* About Page */
-/* header placement */
-li a {
-display: block;
-color: #4aaaa5;
-text-align: center;
-padding-bottom: 7px 5px;
-text-decoration: none;
-}
-/* About, Contact, Portfolio */
-ul {
-    text-align: right;
-    list-style: none;
-    margin-top: -45px;
-    width: 100%;
-    float: right;
-    padding-right: 20px;
-
-}
-
-ul li {
-    display: inline-block;
-    padding: 0px 0px;
-    width: 90px;
-    font-size: 14px;
-}
-
-/* About Me */
-h1 {
-    align-items: start;
-    color: teal;
-}
-
-/* background area */
-body {
-    background: #cccccc;
-    font-family: Aria 1, Arial, Helvetica, sans-serif;
-    font-weight: 90;
-    padding: 0;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 150%;
-    color: black;
-}
-
-#container {
-    width: 100%;
-    vertical-align: center;
-}
-
-#header {
-    background-color: white;
-    height: 100px;
-    width: 100px;
-}
 
 /* Name */
 .name {
-    width: 250px;
-    height: 60px;
+    background-color: #4aaaa5;
+    font-size: 25px;
+    color: #ffffff;
+    width: 240px;
+    height: 70px;
     text-align: center;
-    background-color: teal;
-    font-size: 24px;
+    padding-top: 50px;
     font-weight: 100;
-    padding-top: 40px;
-    color: white;
+    
 }
 
-/* paragraphs */
-.biography {
-    float: right;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 400px;
-    grid-gap: 25px;
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: white;
-    padding: 25px;
-    margin-top: 0px;
-}
-
-img {
-    display: grid;
-    grid-column: 1;
-    width: 500px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: 0;
-}
-
-/* footer */
-footer {
-    height: 100px;
-    background-color: #666666;
-    color: white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #4aaaa5;
     text-align: center;
-    padding: 15px;
-}
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  h1 {
+      align-items: start;
+  }
+
+  /* Bio Section */
+  .biosection{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 50px 400px;
+      background-color: #ffffff;
+      padding: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  /* About Me Heading */
+  .biosection h1 {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     color: teal; 
+
+  }
+ 
+
+  /* Profile Picture */
+  img {
+    grid-column: 1;
+    margin-right: 0;
+    padding: 10px;
+    width: 500px;
+
+  }
+  /* Footer */
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:#666666;
+      color: white;
+      text-align: center;
+     }
+
+    

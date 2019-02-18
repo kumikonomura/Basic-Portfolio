@@ -1,107 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-     ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="assets/css/contact.css" </head> <body>
+    <!-- Name -->
+    <div id="container">
+        <div class="header">
+            <h1 class="name">Kumiko Nomura</h1>
 
-    li {
-        float: right;
-    }
+            <!-- Navigation Bar -->
+            <ul>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./index.html">About</a></li>
+            </ul>
+        </div>
 
-    li a {
-        display: block;
-        padding: 8px;
-    }
-    
-    </style>
+        <!-- Contact Heading -->
+        <h2>Contact</h2>
 
-    <style>
-    li a {
-        display: block;
-        color: #4aaaa5;
-        text-align: center;
-        padding-bottom: 7px 5px;
-        text-decoration: none;
-}
-/* About, Contact, Portfolio */
-ul {
-    text-align: right;
-    list-style: none;
-    margin-top: -45px;
-    width: 100%;
-    float: right;
-    padding-right: 20px;
+        <!-- Contact Form -->
+        <div class="container">
+            <form action="/action_page.php">
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-}
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your email..">
 
-ul li {
-    display: inline-block;
-    padding: 0px 0px;
-    width: 90px;
-    font-size: 14px;
-}
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
 
-h1 {
-    align-items: start;
-    color: teal;
-}
+                <input type="submit" value="Submit">
+            </form>
+        </div>
 
-body {
-    background: #cccccc;
-    font-family: Aria 1, Arial, Helvetica, sans-serif;
-    font-weight: 90;
-    padding: 0;
-    margin: 0px;
-    font-size: 14px;
-    line-height: 150%;
-    color: black;
-}
-</style>
-</head>
-<body>
-
-    <h1>Kumiko Nomura</h1>
-
-    <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./index.html">About</a></li>
-        </ul>
-
-        <hr>
-
-    <h2 style="color: green;">Contact</h2>
-
-    <form>
-        Name:<br>
-        <input type="text" name="name">
-        <br>
-        <br>
-        Email:<br>
-        <input type="text" name="email">
-        <br>
-        <br>
-        Message:<br>
-        <input type="text" name="message">
-    </form>
-
-    <br>
-
-    <button 
-    type="submit" form="nameform" value="Submit">Submit
-    </button>
+        <!-- footer -->
+        <div class="footer">
+            <h3>Copyright @ 2019 Kumiko Nomura</h3>
+        </div>
+    </div>
 
 
 
-    
-</body>
+    </body>
+
 </html>
